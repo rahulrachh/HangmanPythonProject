@@ -15,7 +15,7 @@ def hangman():
     alphabet = set(ascii_uppercase)
     used_letters = set()
 
-    lives = len(word_letters) + 2
+    lives = 8
 
     while len(word_letters)>0 and lives:
 
