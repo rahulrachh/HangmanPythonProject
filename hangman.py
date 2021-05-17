@@ -44,9 +44,9 @@ def hangman():
 
     print('The final word you have guessed is: ', ''.join([letter if letter in used_letters else '-' for letter in word]))
     if lives:
-        print('You did it You son of a bitch You did it!!')
+        print('You did it You did it!!')
     else:
-        print('FAIL!!!!!! Nahane ja nahane ja. Chai piyo biscuit khao, Chai piyo biscuit khao')
+        print("You couldn't complete the word in number of chances available to you")
 
 
 hangman()
